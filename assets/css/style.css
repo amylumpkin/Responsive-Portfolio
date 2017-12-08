@@ -250,3 +250,60 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media (max-width: 980px) {
+  #container {
+    width: 100%;
+  }
+  .main-section {
+    width: 70%;
+  }
+  .sidebar {
+    width: 30%;
+  }
+  .portfolio {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+    #container {
+    width: 100%;
+  }
+  .main-section {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .portfolio {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  #masthead {
+    position: static;
+  }
+  #container {
+   width: 100%;
+  }
+  .main-section {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .portfolio {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
